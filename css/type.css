@@ -1,0 +1,123 @@
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 290px;
+    width: 95%;
+    alignment: center;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.body{
+    padding: 30px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    width: 60%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    width: 40%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: 3%;
+}
+
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+    url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.article_img{
+    width: 30%;
+    margin-right: 3%;
+}
+.article_content{
+    text-overflow: ellipsis;
+}
+.article_plus{
+    text-align:right;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.article_container{
+    width: 100%;
+}
+#more {display: none;}
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imgtextcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+
